@@ -47,7 +47,7 @@ tbody.on("click", "button", function (event) {
         var additionalInfo = "ID to "+ booksJSON.id+ " ISBN to: "+booksJSON.isbn +" Autor to "+ booksJSON.author+ 
         " Tytuł to "+booksJSON.title+ " Wydawca to "+booksJSON.publisher+ " Gatunek : "+ booksJSON.type;
         var newP = $("<p>").text(additionalInfo)
-        div.css("width", "450px").append(newP)
+        div.append(newP)
         
     });
         
